@@ -114,6 +114,7 @@ section{
 }
 
 section .title{
+	color: #f1f1f1;
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -123,6 +124,7 @@ section .title{
     font-family: 'Ubuntu', sans-serif;
 }
 section .title::before{
+	color: #f1f1f1;
     content: "";
     position: absolute;
     bottom: 0px;
@@ -395,14 +397,17 @@ section .title::after{
 }
 .skills .skills-content .left .text{
     font-size: 20px;
+	color:#111;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
     text-align: justify;
+	color:#111;
 }
 .skills .skills-content .left a{
     display: inline-block;
+	color:#111;
     background: crimson;
     color: #fff;
     font-size: 18px;
